@@ -1,0 +1,228 @@
+body{
+	background-color: #0068c1d4;
+}
+.container-main{
+	border-right: 3px solid #011e42;
+    border-left: 3px solid #011e42;
+    box-shadow: 0px -1px 9px 2px #003d88;
+	
+}
+.img-head{
+	border-right: 3px solid #011e42;
+    border-left: 3px solid #011e42;
+    box-shadow: 0px -1px 9px 2px #003d88;
+	
+}
+.nav-head{
+	border-right: 3px solid #011e42;
+    border-left: 3px solid #011e42;
+    box-shadow: 0px -1px 9px 2px #003d88;
+}
+.body-main{
+	
+	background-color: rgb(255, 253, 253);
+	
+}
+.panel-default>.panel-heading{
+	color: #fff;
+    background-color: #070819d9;
+    border-color: #ddd;
+}
+
+.nav-head > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 61, 136);
+	font-size: 18px;
+	text-align: center;
+}
+
+.nav-head > ul >li {
+	display: inline-block;
+    float: none;
+}
+
+.nav-head > ul> li > a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover rgba(15, 19, 76, 0.95);*/
+.nav-head > ul> li a:hover {
+    background-color: rgba(15, 19, 76, 0.95);
+
+}
+.hr{
+	margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+.divider{
+	border-color: #292b2c;
+    max-width: 350px;
+}
+.well-com{
+	color: white;
+    font-size: 16px;
+	margin-top: 10px;	
+}
+.vr {
+
+    background-color: rgba(0, 0, 0, 0.34);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 578px;
+}
+.about{
+	font-size: 16px;
+	
+}
+.titlt-loop{
+	font-size: 16px;
+	background-color: rgb(7, 8, 25);
+	color: white;
+	padding: 10px;
+	background-image: url("img/head1.png");
+	
+}
+.loop-post-data{
+	padding: 8;
+}
+.loop-post{
+	border-radius: 16px;
+	color: white;
+    background-color: rgb(0, 104, 193);
+    box-shadow: 1px 3px 1px rgba(20, 20, 21, 0.62);
+}
+
+
+.widget-sidebar {
+    background-color: #fff;  
+	padding-top: 40px;
+}
+.widget-sidebar2 {
+    background-color: #fff;    
+	
+}
+.info{
+	background-color: #070819;
+    color: white;
+	border-radius: 10px;
+    padding: 10px;	
+	
+}
+
+
+.title-widget-sidebar {
+    font-size: 14pt;
+    border-bottom: 2px solid #e5ebef;
+    margin-bottom: 15px;
+    padding-bottom: 10px;    
+    margin-top: 0px;
+}
+
+.title-widget-sidebar:after {
+    border-bottom: 2px solid #02275f;
+    width: 150px;
+    display: block;
+    position: absolute;
+    content: '';
+    padding-bottom: 10px;
+}
+.categories-btn{
+    background-color: #070819;    
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    
+}
+
+.categories-btn:after {
+    content: '\25BA';
+    color: #fff;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+.categories-btn:hover {
+    background-color: #16A085;color: #fff;
+}
+.footer-div{
+	height: 5px;
+    display: block;
+    background: #3F51B5;
+	
+}
+.footer-home{
+	color: white;
+    background-color: #011e42;
+}
+.con-dev{
+	margin: 10px;
+}
+.footer-LC{
+	color: white;
+    background-color: #070819;
+	
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #fffdfd;
+    color: #012bf9;
+    padding: 15px;
+    width: 60px;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fa-youtube {
+    background: #fffdfd;
+    color: #dc0707;
+    padding: 15px;
+    width: 60px;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fa-rss{
+    background: #fffdfd;
+    color: #ffb205;
+    padding: 15px;
+    width: 60px;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+
+
+
+
